@@ -1,0 +1,160 @@
+.edit, .view {
+    margin: 15px 2px 0 0;
+    cursor: pointer;
+}
+
+/*.card-style{*/
+    /*background: linear-gradient(60deg, rgba(123, 122, 121), rgba(30, 89, 53));*/
+/*}*/
+/*.card-style{*/
+    /*box-shadow: 0 4px 20px 0 #607D8B, 3px 3px 18px 1px #0000006b;*/
+/*}*/
+.main-panel>.content {
+    margin-top: 70px;
+    padding: 30px 15px;
+    min-height: calc(100vh - 156px);
+}
+.main-panel>.footer {
+    border-top: 1px solid #d4d2d2e8;
+}
+
+.hidden-pc {
+    display: none;
+}
+.action-section{
+    margin-right: 10px;
+}
+.action-section>.btn.btn-sm {
+    padding: .40625rem 0.47rem;
+    line-height: 3.1;
+}
+.card-header h4 span{
+    float: right;
+}
+
+.btn{
+    margin: 0 1px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .action-section>.btn.btn-sm{
+        padding: .40625rem 0.15rem;
+    }
+
+
+    .hidden-mobile {
+        display: none;
+    }
+    .hidden-pc {
+        display: block;
+    }
+}
+
+
+
+/*========== Albums and Gallery Css ==============*/
+
+.header-title{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.albumContainer{
+    position: relative;
+    color: white;
+    margin: 10px;
+}
+
+.deleteIcon, .editIcon, .albumName{
+    position: absolute;
+}
+
+.deleteIcon{
+    right: 12%;
+    bottom: 15%;
+    color: red;
+}
+
+.editIcon{
+    right: 23%;
+    bottom: 15%;
+    color: blue;
+}
+
+.albumName{
+    left: 10%;
+    bottom: 12%;
+    color: white;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .deleteIcon{
+        right: 15%;
+        bottom: 20%;
+    }
+    
+    .editIcon{
+        right: 27%;
+        bottom: 20%;
+    }
+    
+    .albumName{
+        left: 12%;
+        bottom: 15%;
+        font-size: 18px;
+    }
+  }
+
+@media only screen and (max-width: 425px) {
+    .deleteIcon{
+        right: 37%;
+        bottom: 15%;
+    }
+    
+    .editIcon{
+        right: 43%;
+        bottom: 15%;
+    }
+    
+    .albumName{
+        left: 8%;
+        bottom: 13%;
+        font-size: 18px;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .deleteIcon{
+        right: 30%;
+        bottom: 15%;
+    }
+    
+    .editIcon{
+        right: 38%;
+        bottom: 15%;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .deleteIcon{
+        right: 20%;
+        bottom: 15%;
+    }
+    
+    .editIcon{
+        right: 30%;
+        bottom: 15%;
+    }
+  }
+
+  .del-content{
+      border: .5px solid red !important;
+  }
+
+  .danger{
+      color: red;
+  }
+
+/*========== End Albums and Gallery Css ==============*/
